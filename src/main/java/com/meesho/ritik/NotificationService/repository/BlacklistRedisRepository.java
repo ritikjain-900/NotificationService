@@ -17,6 +17,8 @@ public class BlacklistRedisRepository {
 
     @Autowired
     public RedisTemplate<String, Object> template;
+    
+    private String ritik;
 
     public void save(Blacklist blacklist){
 
